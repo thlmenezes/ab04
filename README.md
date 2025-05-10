@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/rafaelcostappz/abct/blob/main/assets/banner.png" alt="AbacatePay Banner" width="100%">
+  <img src="./assets/banner.png" alt="AbacatePay Banner" width="100%">
 </p>
 
 <p align="center">
@@ -16,7 +16,7 @@
 
 # AbacatePay Node.js SDK
 
-[![npm version](https://img.shields.io/npm/v/@coelho38r/abct01)](https://www.npmjs.com/package/abacatepay-sdk)
+[![npm version](https://img.shields.io/npm/v/abacatepay-nodejs-sdk)](https://www.npmjs.com/package/abacatepay-nodejs-sdk)
 
 SDK oficial open source da [AbacatePay](https://abacatepay.com) para integração com a API REST da plataforma em aplicações Node.js.
 
@@ -39,7 +39,7 @@ yarn add abacatepay-sdk
 ## Requisitos
 
 - Node.js 18 ou superior
-- Conta ativa na [AbacatePay](https://painel.abacatepay.com)
+- Conta ativa na [AbacatePay](https://www.abacatepay.com/app)
 
 ---
 
@@ -59,7 +59,7 @@ const pix = await client.payment.createPix({
 });
 ```
 
-Para mais exemplos, consulte a [documentação oficial](https://docs.abacatepay.com/sdk/node).
+Para mais exemplos, consulte a [documentação oficial](https://docs.abacatepay.com).
 
 ---
 
